@@ -75,5 +75,6 @@ public class PaystationlmplTest {
         assertEquals("Cancel should clear display", 0, ps.readDisplay());
         ps.addPayment(25);
         assertEquals("Insert after cancel should wor", 10, ps.readDisplay());
+        // add moreß
     }
 }
